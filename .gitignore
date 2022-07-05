@@ -1,0 +1,20 @@
+# Compiled output
+/node_modules
+/dist
+
+# IDEs and editors
+.idea/
+
+
+# Environments
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+yarn.lock
