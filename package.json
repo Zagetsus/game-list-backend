@@ -7,14 +7,12 @@
   "scripts": {
     "build": "tsc",
     "start:dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/main.ts",
-    "start": "ts-node src/index.ts",
-    "swagger-autogen": "node swagger.js"
+    "start": "ts-node src/index.ts"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "swagger-autogen": "^2.21.5",
     "swagger-jsdoc": "^6.2.1",
     "swagger-ui-express": "^4.4.0"
   },
